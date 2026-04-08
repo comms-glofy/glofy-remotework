@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Remote Work | Glofy</title>
+
+  <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/comms-glofy/glofy-assets/refs/heads/main/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0;
+    background: #ffffff;
+    color: #1a1a1a;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  header {
+    border-bottom: 1px solid #eaeaea;
+    padding: 20px;
+    background: #fff;
+  }
+
+  .header-inner {
+    max-width: 760px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .logo img {
+    height: 22px;
+    display: block;
+  }
+
+  .logo a {
+    display: inline-block;
+  }
+
+  .logo a:hover {
+    opacity: 0.7;
+  }
+
+  .lang-btn {
+    font-size: 13px;
+    color: #666;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    font-family: inherit;
+    transition: color 0.2s ease, opacity 0.2s ease;
+  }
+
+  .lang-btn:hover {
+    color: #111;
+  }
+
+  .lang-btn:focus-visible {
+    outline: 2px solid #111;
+    outline-offset: 4px;
+  }
+
+  .container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 56px 20px 72px;
+  }
+
+  h1 {
+    font-size: 38px;
+    line-height: 1.15;
+    margin: 0 0 10px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 1.2;
+    margin: 42px 0 16px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+
+  h3 {
+    font-size: 18px;
+    line-height: 1.35;
+    margin: 28px 0 10px;
+    font-weight: 600;
+  }
+
+  p {
+    line-height: 1.8;
+    color: #333;
+    margin: 0 0 16px;
+  }
+
+  ul {
+    padding-left: 22px;
+    margin: 0 0 16px;
+  }
+
+  li {
+    margin-bottom: 10px;
+    line-height: 1.8;
+    color: #333;
+  }
+
+  .meta {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 36px;
+  }
+
+  footer {
+    border-top: 1px solid #eaeaea;
+    margin-top: 64px;
+    padding-top: 20px;
+    font-size: 13px;
+    color: #777;
+  }
+
+  .lang-content {
+    display: none;
+  }
+
+  .lang-content.active {
+    display: block;
+  }
+
+  @media (max-width: 640px) {
+    header {
+      padding: 16px 18px;
+    }
+
+    .container {
+      padding: 40px 18px 64px;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+
+    h2 {
+      font-size: 22px;
+      margin-top: 36px;
+    }
+
+    h3 {
+      font-size: 17px;
+    }
+
+    p,
+    li {
+      font-size: 15px;
+    }
+  }
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo">
+      <a href="https://glofy.co" target="_blank" rel="noopener noreferrer">
+        <img src="https://raw.githubusercontent.com/comms-glofy/glofy-assets/480d12d530cf73dbd292c6670c8191f1f15539ea/Rebranding%20Logo_Isologo%20Negro.svg" alt="Glofy">
+      </a>
+    </div>
+
+    <button class="lang-btn" id="langToggle">EN</button>
+  </div>
+</header>
+
+<main class="container">
+
+<!-- ================= ES ================= -->
+
+<div id="content-es" class="lang-content active">
+
+<h1>Política de Teletrabajo</h1>
+<div class="meta">Documento institucional</div>
+
+<h2>1. Objetivo</h2>
+
+<p>Establecer las condiciones, responsabilidades y medidas de
+seguridad necesarias para la realización de actividades laborales
+en modalidad de teletrabajo, garantizando la continuidad
+operativa y la protección de la información en cumplimiento con la
+norma ISO/IEC 27001 y la normativa vigente.</p> 
+
+<h2>2. Alcance</h2>
+
+<p>Esta política aplica a todos los colaboradores de la Compañía que
+realicen sus tareas parcial o totalmente fuera de las instalaciones
+físicas de clientes o la Compañía, incluyendo personal remoto,
+híbrido y en clientes en modalidad home office.</p>
+
+<h3>3. Definiciones</h3>
+<ul>
+<li><strong>Teletrabajo:</strong> Modalidad laboral en la que el trabajador
+desempeña sus funciones fuera de las oficinas físicas,
+utilizando tecnologías de la información y la comunicación
+(TIC).</li>
+<li><strong>Colaborador remoto:</strong> Persona que realiza actividades
+laborales desde una ubicación externa a la empresa o sus
+clientes.</li></ul>
+
+<h3>4. Principios generales</h3>
+<ul>
+<li> El teletrabajo será voluntario y acordado entre las partes.</li>
+<li> No afecta los derechos laborales ni las condiciones de contratación.</li>
+<li> Estará sujeto a revisión, suspensión o revocación según necesidades organizacionales o por incumplimientos.</li> </ul>
+
+<h3>5. Requisitos para realizar teletrabajo</h3>
+<ul>
+<li> Firmar la Política de Teletrabajo y el Acuerdo de
+Confidencialidad.</li>
+<li> Participar de capacitaciones sobre seguridad de la
+información.</li>
+<li> Disponer de un entorno de trabajo adecuado, seguro y sin
+acceso no autorizado a la información.</li> </ul>
+
+<h2>6. Condiciones de seguridad de la información</h2>
+<p>El colaborador se compromete a cumplir con los siguientes
+requisitos durante el teletrabajo:</p>
+
+<h3>6.1. Acceso y protección de la información</h3>
+<ul>
+<li> Acceder a los sistemas únicamente mediante credenciales
+corporativas y no compartidas.</li>
+<li> Respetar lo contenido en el punto 6.3.</li></ul>
+
+<h3>6.2. Almacenamiento y transmisión</h3>
+<ul>
+<li> No almacenar información confidencial localmente salvo
+autorización expresa.</li>
+<li> Transmitir archivos o datos exclusivamente por canales
+seguros (VPN, plataformas oficiales, cifrado si aplica).</li></ul>
+
+<h3>6.3. Práctica de escritorio limpio y pantalla limpia</h3>
+<p>Durante el teletrabajo, el colaborador debe aplicar el principio de
+“escritorio limpio”, manteniendo su espacio de trabajo libre de
+documentación confidencial, dispositivos no autorizados o
+elementos que comprometan la seguridad de la información.
+También se aplicará la práctica de “pantalla limpia”, que implica:</p>
+<ul>
+<li> Bloquear el equipo cuando no está en uso.</li>
+<li> Evitar dejar sesiones abiertas sin supervisión.</li>
+<li> No permitir la visualización de información sensible por
+terceros.</li>
+</ul>
+<p>En caso de que el entorno no pueda garantizar estas condiciones
+(por ejemplo, espacios compartidos), se deberán tomar medidas
+adicionales como el uso de auriculares, filtros de privacidad o
+reubicación del espacio de trabajo.</p>
+
+<h3>6.4. Requisitos mínimos de seguridad</h3>
+<p>Durante el trabajo remoto, el colaborador deberá cumplir con las
+siguientes medidas mínimas para garantizar la seguridad de la
+información y la protección de los activos tecnológicos:</p>
+<h3>Autenticación y credenciales</h3>
+<ul>
+<li> No compartir datos de autenticación bajo ninguna
+circunstancia.</li>
+<li> Utilizar mecanismos seguros de autenticación (por ejemplo,
+doble factor cuando esté disponible).</li>
+<li> Proteger físicamente cualquier medio de autenticación,
+como anotaciones, tokens o dispositivos.</li>
+</ul>
+
+<h3>Protección del equipo de trabajo</h3>
+<ul>
+<li> Permitir e instalar las actualizaciones automáticas del
+sistema operativo y del software de protección.</li>
+<li> No conectarse a redes Wi-Fi públicas o no autorizadas, salvo
+que se utilice una VPN corporativa.</li>
+<li> Se autorizará el uso de dispositivos personales únicamente
+cuando constituyan la herramienta principal de trabajo; en
+los demás casos, será requisito contar con autorización
+expresa.</li>
+</ul>
+
+<h3>Eliminación segura de datos</h3>
+<ul>
+<li> Eliminar o destruir de forma segura la información que ya no
+sea necesaria o antes de cambiar de equipo.</li>
+<li> Utilizar prácticas adecuadas como vaciado de papelera,
+borrado permanente o herramientas específicas de
+destrucción de datos.</li>
+</ul>
+
+<h3>6.5. Protección de datos</h3>
+<p>En el marco del acuerdo de confidencialidad firmado por cada
+colaborador, se establece lo siguiente:</p>
+<ul>
+<li> Está estrictamente prohibido transferir, copiar o divulgar
+información que no sea necesaria para la ejecución de tareas
+laborales autorizadas.</li>
+<li> Toda información que ya no sea requerida para la actividad
+deberá ser eliminada o destruida de manera segura, evitando
+así el riesgo de filtración o reutilización indebida.</li>
+<li> Este principio aplica tanto a archivos digitales como a
+documentación física, y debe observarse especialmente en
+contextos de trabajo remoto o cuando se utilicen dispositivos
+personales.</li>
+</ul>
+
+<h3>6.6. Reporte de incidentes relacionados al teletrabajo</h3>
+<p>El colaborador deberá notificar de forma inmediata a Recursos
+Humanos en caso de:</p>
+<ul>
+<li> Pérdida, robo o daño del equipo de trabajo.</li>
+<li> Sospecha de acceso no autorizado a cuentas, sistemas o
+archivos.</li>
+<li> Exposición de información sensible o confidencial en
+entornos no seguros.</li>
+</ul>
+
+<p>Estas notificaciones deben realizarse a través de los canales
+oficiales definidos por la Compañía, permitiendo una evaluación
+rápida del incidente y la aplicación de medidas de contención y
+mitigación.</p>
+
+<p>Para más detalles, consultar el procedimiento vigente de Gestión
+de Incidentes de Seguridad de la Información, disponible en el
+siguiente enlace: ><strong>Gestión de incidentes</strong></p>
+
+<h3>7. Traslado de notebooks</h3>
+<p>En situaciones en las que el colaborador deba trasladar su equipo
+portátil fuera de su domicilio o lugar de trabajo habitual, se
+deberán observar las siguientes pautas:</p>
+<ul>
+<li> Utilizar mochilas o fundas adecuadas que protejan el equipo
+frente a daños físicos, robos o exposición ambiental.</li>
+<li> Evitar dejar el equipo sin supervisión en espacios públicos o
+de libre acceso.</li>
+<li> Cuando se utilice el equipo en transporte público u otros
+ámbitos compartidos, se deberá evitar que la información en
+pantalla quede expuesta a terceros.</li>
+<li> El equipo debe contar con cifrado de disco, bloqueo de
+pantalla automático y medidas que aseguren la
+confidencialidad de la información contenida.</li>
+</ul>
+
+<h3>8. Responsabilidades del colaborador</h3>
+<ul>
+<li> Cumplir con la jornada laboral y objetivos asignados.</li>
+<li> Garantizar disponibilidad y contacto durante el horario
+acordado.</li>
+<li> Cuidar los activos de información y reportar incidentes de
+seguridad de forma inmediata.</li>
+</ul>
+
+<h3>9. Supervisión y control</h3>
+<ul>
+<li> Los líderes de equipo y RRHH podrán solicitar reuniones
+virtuales, controles de cumplimiento o auditorías remotas
+sobre condiciones de trabajo y cumplimiento de esta política.</li>
+</ul>
+
+<h3>10. Vigencia y revisión</h3>
+<p>Esta política entra en vigencia a partir de su aprobación por
+Dirección y será revisada anualmente o ante cambios normativos o
+tecnológicos relevantes.</p>
+
+
+<footer>© 2026 Glofy LLC. Todos los derechos reservados · Policy page</footer>
+
+</div>
+
+<!-- ================= EN ================= -->
+
+<div id="content-en" class="lang-content">
+
+<h1>Remote Work Policy</h1>
+
+<div class="meta">Institutional document</div>
+
+<h2>1. Objective</h2>
+
+<p>
+To establish the conditions, responsibilities, and security measures required for carrying out work activities under a remote work model, ensuring operational continuity and the protection of information in compliance with the ISO/IEC 27001 standard and applicable regulations.
+</p>
+
+<h2>2. Scope</h2>
+
+<p>
+This policy applies to all Company collaborators who perform their tasks partially or entirely outside the physical facilities of clients or the Company, including remote, hybrid, and client-based personnel working under a home office model.
+</p>
+
+<h3>3. Definitions</h3>
+
+<ul>
+  <li><strong>Remote work:</strong> A work modality in which the employee performs their duties outside physical offices, using information and communication technologies (ICT).</li>
+  <li><strong>Remote collaborator:</strong> A person who carries out work activities from a location external to the company or its clients.</li>
+</ul>
+
+<h3>4. General principles</h3>
+
+<ul>
+  <li>Remote work will be voluntary and agreed upon between the parties.</li>
+  <li>It does not affect labor rights or employment conditions.</li>
+  <li>It will be subject to review, suspension, or revocation based on organizational needs or non-compliance.</li>
+</ul>
+
+<h3>5. Requirements for remote work</h3>
+
+<ul>
+  <li>Sign the Remote Work Policy and the Confidentiality Agreement.</li>
+  <li>Participate in information security training.</li>
+  <li>Have an adequate, secure work environment with no unauthorized access to information.</li>
+</ul>
+
+<h2>6. Information security conditions</h2>
+
+<p>
+The collaborator agrees to comply with the following requirements during remote work:
+</p>
+
+<h3>Access and protection of information</h3>
+
+<ul>
+  <li>Access systems only through corporate, non-shared credentials.</li>
+  <li>Comply with the provisions of section 6.3.</li>
+</ul>
+
+<h3>6.2. Storage and transmission</h3>
+
+<ul>
+  <li>Do not store confidential information locally unless expressly authorized.</li>
+  <li>Transmit files or data exclusively through secure channels (VPN, official platforms, encryption where applicable).</li>
+</ul>
+
+<h3>6.3. Clean desk and clean screen practices</h3>
+
+<p>
+During remote work, the collaborator must apply the “clean desk” principle, keeping their workspace free of confidential documents, unauthorized devices, or any elements that could compromise information security.
+</p>
+
+<p>
+The “clean screen” practice also applies, which involves:
+</p>
+
+<ul>
+  <li>Locking the device when not in use.</li>
+  <li>Avoiding leaving sessions open without supervision.</li>
+  <li>Preventing sensitive information from being viewed by third parties.</li>
+</ul>
+
+<p>
+If the environment cannot guarantee these conditions (for example, shared spaces), additional measures must be taken such as using headphones, privacy filters, or relocating the workspace.
+</p>
+
+<h3>6.4. Minimum security requirements</h3>
+
+<p>
+During remote work, the collaborator must comply with the following minimum measures to ensure information security and the protection of technological assets:
+</p>
+
+<h3>Authentication and credentials</h3>
+
+<ul>
+  <li>Do not share authentication data under any circumstances.</li>
+  <li>Use secure authentication mechanisms (e.g., two-factor authentication when available).</li>
+  <li>Physically protect any authentication means, such as notes, tokens, or devices.</li>
+</ul>
+
+<h3>Work device protection</h3>
+
+<ul>
+  <li>Enable and install automatic updates for the operating system and security software.</li>
+  <li>Do not connect to public or unauthorized Wi-Fi networks unless using a corporate VPN.</li>
+  <li>The use of personal devices will only be authorized when they are the primary work tool; in other cases, explicit authorization will be required.</li>
+</ul>
+
+<h3>Secure data disposal</h3>
+
+<ul>
+  <li>Delete or securely destroy information that is no longer needed or before changing devices.</li>
+  <li>Use appropriate practices such as emptying the recycle bin, permanent deletion, or specialized data destruction tools.</li>
+</ul>
+
+<h3>6.5. Data protection</h3>
+
+<p>
+Within the framework of the confidentiality agreement signed by each collaborator, the following is established:
+</p>
+
+<ul>
+  <li>It is strictly prohibited to transfer, copy, or disclose information that is not necessary for the execution of authorized work tasks.</li>
+  <li>All information that is no longer required must be securely deleted or destroyed, thus preventing the risk of leakage or improper reuse.</li>
+  <li>This principle applies to both digital files and physical documentation and must be especially observed in remote work contexts or when using personal devices.</li>
+</ul>
+
+<h3>6.6. Reporting remote work-related incidents</h3>
+
+<p>
+The collaborator must immediately notify Human Resources in case of:
+</p>
+
+<ul>
+  <li>Loss, theft, or damage to work equipment.</li>
+  <li>Suspicion of unauthorized access to accounts, systems, or files.</li>
+  <li>Exposure of sensitive or confidential information in unsecured environments.</li>
+</ul>
+
+<p>
+These notifications must be made through the official channels defined by the Company, allowing for rapid incident assessment and the implementation of containment and mitigation measures.
+</p>
+
+<p>
+For more details, refer to the current Information Security Incident Management procedure available at the following link:
+<strong>Incident Management</strong>
+</p>
+
+<h3>7. Laptop transportation</h3>
+
+<p>
+In situations where the collaborator needs to transport their laptop outside their home or usual workplace, the following guidelines must be observed:
+</p>
+
+<ul>
+  <li>Use appropriate backpacks or cases to protect the equipment from physical damage, theft, or environmental exposure.</li>
+  <li>Avoid leaving the equipment unattended in public or freely accessible spaces.</li>
+  <li>When using the equipment on public transportation or shared environments, prevent screen information from being visible to third parties.</li>
+  <li>The device must have disk encryption, automatic screen lock, and measures that ensure the confidentiality of the stored information.</li>
+</ul>
+
+<h3>8. Collaborator responsibilities</h3>
+
+<ul>
+  <li>Comply with the agreed working hours and assigned objectives.</li>
+  <li>Ensure availability and communication during agreed working hours.</li>
+  <li>Safeguard information assets and report security incidents immediately.</li>
+</ul>
+
+<h3>9. Supervision and control</h3>
+
+<ul>
+  <li>Team leaders and HR may request virtual meetings, compliance checks, or remote audits regarding working conditions and adherence to this policy.</li>
+</ul>
+
+<h3>10. Validity and review</h3>
+
+<p>
+This policy becomes effective upon approval by Management and will be reviewed annually or in response to relevant regulatory or technological changes.
+</p>
+
+<footer>
+© 2026 Glofy LLC. All rights reserved · Policy page
+</footer>
+
+</div>
+
+</main>
+
+<script>
+const btn = document.getElementById('langToggle');
+const es = document.getElementById('content-es');
+const en = document.getElementById('content-en');
+
+let current = 'es';
+
+btn.onclick = () => {
+  if (current === 'es') {
+    es.classList.remove('active');
+    en.classList.add('active');
+    btn.textContent = 'ES';
+    document.title = 'Remote Work Policy | Glofy';
+    current = 'en';
+  } else {
+    en.classList.remove('active');
+    es.classList.add('active');
+    btn.textContent = 'EN';
+    document.title = 'Política de Trabajo Remoto | Glofy';
+    current = 'es';
+  }
+};
+</script>
+
+</body>
+</html>
